@@ -21,7 +21,7 @@ class Directory extends React.Component {
           imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSmc0Gfc6YB899Cda1OVgQpIcHRMn3ShITMWw&usqp=CAU',
           
           id: 2,
-          linkUrl: ''
+          linkUrl: 'testinglocations'
         },
        
       ]

@@ -3,11 +3,12 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import './App.css';
-
+import Symptomcheck from './pages/symptom-questions/symptom-questions.component';
 import HomePage from './pages/homepage/homepage.component';
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
 import Header from './components/header/header.component';
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
+import  MapContainer  from './components/MapContainer/MapContainer.component';
 
 class App extends React.Component {
   constructor() {
@@ -53,6 +54,8 @@ class App extends React.Component {
         <Route exact path='/' component={HomePage} />
        
         <Route path='/signin' component={SignInAndSignUpPage} />
+        <Route path='/symptomcheck' component={Symptomcheck} />
+        <Route path='/testinglocations' component={MapContainer} />
       </Switch>
       </div>
     );
