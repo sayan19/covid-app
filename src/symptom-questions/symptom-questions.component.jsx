@@ -1,7 +1,7 @@
 import React from 'react';
-import Questions from '../../components/symptoms/Questions';
-import Display from '../../components/symptoms/Display';
-import Result from '../../components/symptoms/Result';
+import Questions from '../components/symptoms/Questions';
+import Display from '../components/symptoms/Display';
+import Result from '../components/symptoms/Result';
 class Symptomcheck extends React.Component {
   constructor(props) {
     super(props);
