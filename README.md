@@ -21,6 +21,7 @@ Overall in the limited time we had I really enjoyed building the application fro
 ### `References`
 Google Authentication via Firebase:
 https://www.youtube.com/watch?v=hGDaemst2UA
+
 Firebase Docs:
 https://firebase.google.com/docs/auth/ios/google-signin
 
